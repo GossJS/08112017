@@ -14,3 +14,7 @@ const even2 = testedValue => testedValue | 0b11111110;
 5. Array.from({length:34}, (v,i)=>i).map( (x,i)=> (  {i, v: even3(x,3)}) )
 
 [8,15] [24,31]
+
+6. побитовый сдвиг влево на единицу
+00000101 = 5
+00001010 = 5*2 = 10
