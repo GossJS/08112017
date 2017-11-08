@@ -12,4 +12,5 @@ const even2 = testedValue => testedValue | 0b11111110;
 4. const even3 = (testedValue,n) => testedValue & 2**n
 
 5. Array.from({length:34}, (v,i)=>i).map( (x,i)=> (  {i, v: even3(x,3)}) )
+
 [8,15] [24,31]
