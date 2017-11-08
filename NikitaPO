@@ -1,4 +1,4 @@
 Мы вводим n
 Выделяем этот бит ввиде маски. Маска = 2^n в двоичном коде
 
-cost even3 = testedValue => testedValue & parseInt(n,2)
+const even3 = testedValue => testedValue & parseInt(2**n,2)
